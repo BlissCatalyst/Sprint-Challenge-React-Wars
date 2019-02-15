@@ -1,0 +1,24 @@
+.char-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.char-container .each-character {
+    width: 380px;
+    background-color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    line-height: 140%;
+    box-shadow: 0px 0px 20px black;
+}
+
+.char-container .each-character h2 {
+    text-align: center;
+}
+
+.char-container .each-character ul {
+    margin: 0 0 20px 20px;
+}
