@@ -1,0 +1,8 @@
+.char-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.each-character {
+    background-color: white;
+}
