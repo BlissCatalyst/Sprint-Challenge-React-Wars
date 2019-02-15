@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  - React JS is a library built for Javascript by Facebook. It solves web site problems on the big scale. On a site like Instagram and Facebook, they constantly have people clicking, interacting, and posting. This can cause a lot of slowdown. Like in some of our projects, React focuses on components and uses a virtual DOM which is way more efficient than before react.
+
 - [ ] What does it mean to _think_ in react?
+
+  - I used to think in a "top to bottom" form of writing code. React wants us to think in DRY. You have to be thinking about what you are coding and how you can use it again in the future, since React is component driven.
 
 - [ ] Describe state.
 
+  - State is data that is collected using React. It can change throughout the program. If it changes in one place, it changes for the rest of the program.
+
 - [ ] Describe props.
+
+  - "Props" is short for properties. When you call a component, you have to specify props just like if you were passing data to a normal function. You send the data from State, and use it as props in the component.
 
 ## Project Set Up
 
