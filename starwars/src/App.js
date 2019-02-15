@@ -35,9 +35,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <section className="Char-Container">
+        <section className="char-container">
           {this.state.starwarsChars.map((charFromMap, index) => (
-          <CharCard key={index} chars={this.state.starwarsChars} />
+          <CharCard key={index} chars={charFromMap} />
           ))}
         </section>
       </div>
