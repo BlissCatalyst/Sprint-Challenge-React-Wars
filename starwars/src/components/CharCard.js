@@ -3,7 +3,9 @@ import './StarWars.css';
 
 const CharCard = props => {
     return (
-        <div></div>
+        <div>
+            
+        </div>
     );
 }
 

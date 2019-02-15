@@ -36,7 +36,9 @@ class App extends Component {
       <div className="App">
         <h1 className="Header">React Wars</h1>
         <section className="Char-Container">
-          <CharCard chars={this.state.starwarsChars}/>
+          {this.state.starwarsChars.map((charFromMap, index) => (
+          <CharCard key={index} chars={this.state.starwarsChars} />
+          ))}
         </section>
       </div>
     );
